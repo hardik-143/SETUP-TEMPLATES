@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "lint": "eslint . --fix",
+        "lint:watch": "chokidar \"resources/js/**/*.{js,jsx}\" -c \"pnpm run lint\""
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.0",
+        "@vitejs/plugin-react": "^4.4.1",
+        "axios": "^1.8.2",
+        "chokidar-cli": "^3.0.0",
+        "concurrently": "^9.0.1",
+        "eslint": "^9.25.1",
+        "eslint-plugin-react": "^7.37.5",
+        "laravel-vite-plugin": "^1.2.0",
+        "sass": "^1.87.0",
+        "tailwindcss": "^3.4.17",
+        "vite": "^6.2.4"
+    },
+    "dependencies": {
+        "@eslint/config-helpers": "^0.3.0",
+        "@eslint/js": "^9.25.1",
+        "@inertiajs/inertia": "^0.11.1",
+        "@inertiajs/inertia-react": "^0.8.1",
+        "@reduxjs/toolkit": "^2.7.0",
+        "autoprefixer": "^10.4.21",
+        "eslint-plugin-prettier": "^5.2.6",
+        "globals": "^16.0.0",
+        "postcss": "^8.5.3",
+        "prettier-plugin-tailwindcss": "^0.6.11",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-redux": "^9.2.0",
+        "redux-persist": "^6.0.0"
+    }
+}

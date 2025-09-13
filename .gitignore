@@ -1,0 +1,75 @@
+# PHPUnit cache files
+/.phpunit.cache
+.phpunit.result.cache
+
+# Node modules
+/node_modules
+node_modules
+
+# Build and hot reload directories
+/public/build
+/public/hot
+
+# Public storage
+/public/storage
+
+# Storage keys and pail
+/storage/*.key
+/storage/pail
+
+# Vendor directory
+/vendor
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# PHPactor config
+.phpactor.json
+
+# Homestead config
+Homestead.json
+Homestead.yaml
+
+# NPM and Yarn logs
+npm-debug.log
+yarn-error.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Auth and IDE config
+/auth.json
+
+# IDE folders
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# macOS system files
+.DS_Store
+
+# Visual Studio files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+
+# Distribution folders
+dist
+dist-ssr
+
+# Local config files
+*.local

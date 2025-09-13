@@ -1,0 +1,11 @@
+@use "tailwind";
+
+@use "fonts/index.scss";
+
+// * {
+//     font-family: "Nunito Sans", sans-serif;
+// }
+
+body {
+    @apply font-nunito;
+}
