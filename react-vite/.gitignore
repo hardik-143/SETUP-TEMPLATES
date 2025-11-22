@@ -1,4 +1,54 @@
-# Logs
+# === Dependencies ===
+**/node_modules
+**/.pnp
+.pnp.*
+**/vendor
+
+# === Yarn ===
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# === Build Output ===
+**/build
+**/public/build
+**/public/hot
+**/dist
+dist-ssr
+**/.next/
+**/out/
+
+# === Testing ===
+**/coverage
+**/.phpunit.cache
+.phpunit.result.cache
+
+# === Storage & Cache ===
+**/public/storage
+**/storage/*.key
+**/storage/pail
+
+# === Environment Files ===
+.env*
+.env
+.env.backup
+.env.production
+
+# === IDE & Editor ===
+**/.fleet
+**/.idea
+**/.nova
+**/.vscode
+**/.zed
+.vscode/*
+!.vscode/extensions.json
+.idea
+**/auth.json
+.phpactor.json
+
+# === Logs ===
 logs
 *.log
 npm-debug.log*
@@ -6,19 +56,25 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+.pnpm-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# === OS Files ===
 .DS_Store
+
+# === Visual Studio ===
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# === TypeScript ===
+*.tsbuildinfo
+next-env.d.ts
+
+# === Misc ===
+*.local
+*.pem
+Homestead.json
+Homestead.yaml
+.vercel
